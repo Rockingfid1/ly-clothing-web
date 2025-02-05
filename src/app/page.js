@@ -10,7 +10,6 @@ export default function RootPage() {
   const pathname = usePathname();
 
   useEffect(() => {
-    console.log(pathname);
     if (pathname === ROUTES.ROOT) redirect(ROUTES.HOME);
   }, [pathname]);
 
