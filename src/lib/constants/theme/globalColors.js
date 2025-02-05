@@ -12,10 +12,12 @@ export const GlobalColors = {
   pure_grey: "rgba(141, 141, 141, 0.548)",
 
   /**icon colors */
-  iconPrimaryGrey900: "rgb(102,102,102)",
+  iconPrimaryGrey300: "rgb(145, 145, 145)",
+  iconPrimaryGrey700: "rgb(102,102,102)",
 
   /**form colors */
   formPrimaryGrey400: "rgb(204, 204, 204)",
+  formPrimaryGrey600: "rgb(161, 161, 161)",
 
   /**border colors */
   borderPrimaryGrey500: "rgb(180, 180, 180)",
