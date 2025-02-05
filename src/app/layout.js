@@ -2,8 +2,16 @@ import localFont from "next/font/local";
 import "./globals.css";
 
 const myFont = localFont({
-  src: "./fonts/Pallmervallerin.ttf",
-  display: "swap",
+  src: [
+    {
+      path: "./fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf",
+      style: "normal",
+    },
+    {
+      path: "./fonts/PlayfairDisplay-VariableFont_wght.ttf",
+      style: "normal",
+    },
+  ],
 });
 
 export const metadata = {
