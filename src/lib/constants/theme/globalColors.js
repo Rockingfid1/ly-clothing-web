@@ -19,6 +19,10 @@ export const GlobalColors = {
   formPrimaryGrey400: "rgb(204, 204, 204)",
   formPrimaryGrey600: "rgb(161, 161, 161)",
 
+  /**header colors */
+  headerPrimary300: "rgba(233, 201, 201, 0.589)",
+  headerPrimary400: "rgba(209, 197, 197, 0.589)",
+
   /**border colors */
   borderPrimaryGrey500: "rgb(180, 180, 180)",
 };

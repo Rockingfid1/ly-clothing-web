@@ -9,7 +9,8 @@ const authSlice = createSlice({
   },
   reducers: {
     setAuth(state, action) {
-      switch (action.payload.type) {
+      const { payload } = action;
+      switch (payload.type) {
         case "login":
           console.log("logged in!");
           return {
@@ -26,7 +27,8 @@ const authSlice = createSlice({
       }
     },
     setAdminAuth(state, action) {
-      switch (action.payload.type) {
+      const { payload } = action;
+      switch (payload.type) {
         case "setAdmin":
           return {
             ...state,

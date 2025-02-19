@@ -4,6 +4,7 @@ import { Provider } from "react-redux";
 import { store } from "../redux/store";
 import { createTheme, ThemeProvider } from "@mui/material";
 import { FONT_FAMILY } from "../constants/fonts/fonts";
+import MainRootLayout from "@/components/MainRootLayout/MainRootLayout";
 
 export const GlobalLayout = createContext({
   theme: null,
@@ -55,7 +56,7 @@ export default function GlobalLayoutProvider({ children }) {
     <ThemeProvider theme={theme}>
       <Provider store={store}>
         <GlobalLayout.Provider value={ctxValue}>
-          Some Layout
+          <MainRootLayout shouldShow />
           {children}
         </GlobalLayout.Provider>
       </Provider>
